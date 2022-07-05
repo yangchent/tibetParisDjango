@@ -1,0 +1,10 @@
+<h1>All Restaurant</h1>
+{% for Restaurant in object_list %}
+    <ul>
+        <li>Nom: {{ object.name }}</li>
+        <li>Address: {{ object.address }}</li>
+        <li>Cité: {{ object.city }}</li>
+        <li>Code Postale: {{ object.Zip_code }}</li>
+        <li>Teléphone: {{ object.phone }}</li>
+    </ul>
+{% endfor %}
